@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "TrackingIO-iOS"
-  spec.version      = "1.7.8"
+  spec.version      = "1.8.2"
   spec.summary      = "ReYun TrackingIO SDK"
 
   spec.description  = <<-DESC
