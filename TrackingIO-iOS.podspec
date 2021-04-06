@@ -27,9 +27,8 @@ Pod::Spec.new do |spec|
 
   spec.static_framework = true
   spec.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/TrackingIO-iOS/TrackingIO/**"' }
-  
-  spec.frameworks = 'SystemConfiguration','AdSupport','CoreTelephony','Security','CoreMotion',"iAd",'AVFoundation',"WebKit","CFNetwork"
+  spec.frameworks = 'SystemConfiguration','AdSupport','CoreTelephony','Security','CoreMotion',"iAd",'AVFoundation','WebKit','CFNetwork'
 
-  spec.libraries  = 'sqlite3','ReYunTracking',"z","resolv"
+  spec.libraries  = 'sqlite3','z',"resolv"
 
 end
