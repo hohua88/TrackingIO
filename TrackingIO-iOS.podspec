@@ -19,9 +19,9 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.platform     = :ios, "9.0"
    
-  spec.source       = { :git => "https://github.com/hohua88/TrackingIO-iOS.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/hohua88/TrackingIO-iOS.git", :tag => spec.version }
 
-  spec.source_files  = "TrackingIO/*.{h,a}"
+  spec.source_files  = 'TrackingIO/*.{h,a}'
 
   spec.ios.vendored_library = "TrackingIO/*.a"
 
